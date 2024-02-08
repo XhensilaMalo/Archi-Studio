@@ -3,7 +3,7 @@ const navbar = document.querySelector('.navbar');
 const modal = document.getElementById('mobileMenu');
 
 function toggleMenu() {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 768) {
         navbar.style.display = 'block';
         menuButton.style.display = 'none';
         modal.style.display = 'none'; 
