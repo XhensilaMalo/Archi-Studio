@@ -48,8 +48,8 @@ button:hover {
 
 @media screen and ( max-width: 780px) {
  body{
-    background-image: url(../images/44\ Japandi\ Kitchen\ Concepts\ to\ Explore\ with\ Redefined\ Aesthetic\ Excellence.jpg);
-    background-size:auto;
+    background-image: url(../images/cntmobile.jpg);
+    background-size:cover;
  }
 
 }
