@@ -1,0 +1,112 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1000;
+    margin: 0;
+    top: 0;
+    left: 0px;
+}
+
+.navbar2{
+    background-color:#7a7160;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-right: 15px;
+    line-height: 50px; 
+}
+
+.navbar a:hover {
+    background-color: rgb(152, 143, 128);
+    width: auto;
+}
+
+
+.logo img {
+    margin-top: 0px;
+    max-height: 50px;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+.logo {
+    float:left;
+    padding: 20px;
+    cursor:auto;
+}
+
+.socialMedia {
+    margin-top: 2px;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 2px;
+}
+
+.socialMedia img {
+    max-height: 40px;
+    right:5px; 
+}
+
+
+@media screen and (max-width: 600px) {
+   
+
+    #menuButton {
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+        z-index: 1001;
+    }
+    
+    .modal a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: background-color 0.3s ease-in-out;
+        margin-top: 10px;
+    }
+    
+    .modal a:hover {
+        background-color: #9b8e66;
+    }
+    
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archi Studio</title>
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+        <div style="width: 80%; margin: 0 100px;">
+            <div class="logo">
+                <img src="images/logo2.png" alt="Our Logo">
+            </div>
+            <a href="Homepage.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="ourwork.html">Our work</a>
+            <a href="getinspired.html">Get inspired</a>
+            <a href="contact.html">Contact us</a>
+            <a href="fees.html">Fees</a>
+            <div class="socialMedia">
+               <a href="https://www.instagram.com/"><img src="images/rrjetesociale/1.jpg"></a> 
+               <a href="https://whatsapp.com/"><img src="images/rrjetesociale/2.jpg"></a>
+               <a href="https://www.pinterest.com/"><img src="images/rrjetesociale/3.jpg"></a>
+               <a href="https://gmail.google.com/"><img src="images/rrjetesociale/4.jpg"></a>
+            </div>
+        </div>
+        </div>
+        <button id="menuButton">&#8801;</button>
+        <div id="mobileMenu" class="modal">
+             <a href="Homepage.html" onclick="hideMenu()">Homepage</a>
+             <a href="about.html" onclick="hideMenu()">About us</a>
+             <a href="ourwork.html" onclick="hideMenu()">Our work</a>
+             <a href="getinspired.html" onclick="hideMenu()">Get inspired</a>
+             <a href="contact.html" onclick="hideMenu()">Contact us</a>
+             <a href="fees.html" onclick="hideMenu()">Fees</a>
+        </div>
+
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="picture">
+                <img src="images/homepage/2.jpg" alt="Image 2">
+                <div class="text-overlay">Are <strong><em>you </em></strong> ready to love your space<strong><em>?</em></strong></div>
+            </div>
+            <div class="picture">
+                <img src="images/homepage/1.jpg" alt="Image 3">
+                <div class="text-overlay">Modern and Inovative<strong>!</strong></div>
+            </div>
+            <div class="picture">
+                <img src="images/homepage/4.jpg" alt="Image 4">
+                <div class="text-overlay">Details matter<strong>!</strong></div>
+
+            </div>
+            <div class="picture">
+                <img src="images/homepage/5.jpg" alt="Image 5">
+                <div class="text-overlay">Design your dream<strong>!</strong> </div>
+            </div>
+            <div class="picture">
+                <img src="images/homepage/7.jpg" alt="Image 5">
+                <div class="text-overlay">Highly experienced<strong>!</strong></div>
+            </div>
+            <div class="picture">
+                <img src="images/homepage/8.jpg" alt="Image 5">
+                <div class="text-overlay">Archi Interior Studio &copy 2024</div>
+            </div>
+
+            <button id="prevBtn" class="nav-btn">&lt;</button>
+            <button id="nextBtn" class="nav-btn">&gt;</button>
+        </div>
+    </div>
+
+    <iframe src="footer.html" width="100%" height="200px" style="border: none;"></iframe>
+    <script src="JavaScript/carousel.js"></script>
+    <script src="JavaScript/menu.js"></script>
+    <script src="JavaScript/navbarScroll.js"></script>
+    
+</body>
+</html>

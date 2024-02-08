@@ -1,0 +1,64 @@
+
+#logo-cell {
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(190, 172, 138);
+}
+body {
+    background-color: #988f7c;
+    background-image: linear-gradient(rgba(106, 102, 94, 0.478), rgba(0, 0, 0, 0.6));
+    font-family: 'Times', sans-serif;
+    color: rgb(48, 35, 21);
+    margin: 0;
+    padding-top: 20px;
+}
+
+.get-inspired {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding-top: 95px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.design-category {
+    flex: 0 0 calc(33.33% - 20px);
+}
+
+.design-category img {
+    width: 100%; 
+    height: 400px;  
+    object-fit: cover;  
+    border: 1px solid #bebebe;
+}
+
+.mySlides {
+    display: none;
+    opacity: 0; 
+    transition: opacity 0.8s ease-in-out;
+}
+
+.mySlides.fade {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .get-inspired {
+        flex-direction: column;
+    }
+
+    .design-category {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+

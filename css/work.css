@@ -1,0 +1,41 @@
+
+body {
+    background-color: #988f7c;
+    background-image: linear-gradient(rgba(106, 102, 94, 0.478), rgba(0, 0, 0, 0.6));
+    font-family: 'Times', sans-serif;
+    color: rgb(48, 35, 21);
+    margin: 0;
+    padding-top: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding-top: 95px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.project {
+    flex: 0 0 calc(33.33% - 20px);
+}
+
+.project img {
+    width: 100%; 
+    height: 400px;  
+    object-fit: cover;  
+    border: 1px solid #bebebe;
+}
+
+@media screen and (max-width: 1000px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+

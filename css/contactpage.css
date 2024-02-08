@@ -1,0 +1,55 @@
+
+h2{
+    color: azure;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image:url(../images/cnt.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+
+
+form {
+    max-width: 500px;
+    margin: auto;
+    color: azure;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color:transparent;
+    color:antiquewhite;
+}
+
+button {
+    background-color: #c4a9227b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(42,22,3)
+}
+
+@media screen and ( max-width: 780px) {
+ body{
+    background-image: url(../images/44\ Japandi\ Kitchen\ Concepts\ to\ Explore\ with\ Redefined\ Aesthetic\ Excellence.jpg);
+    background-size:auto;
+ }
+
+}

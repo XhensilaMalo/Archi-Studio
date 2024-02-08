@@ -1,0 +1,17 @@
+footer {
+    font-family: 'Times', sans-serif;
+    background-color:transparent;
+    color:rgb(241, 239, 235);
+    padding: 30px;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 90%;
+    height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        padding: 10px;
+    }
+}
