@@ -26,6 +26,7 @@ body {
     height: 400px;  
     object-fit: cover;  
     border: 1px solid #bebebe;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
